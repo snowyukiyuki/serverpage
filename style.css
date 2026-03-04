@@ -1,0 +1,105 @@
+body {
+      margin: 0;
+      padding: 0;
+      background-color: lightsteelblue;
+      background-image: url("pictures/background.webp");
+      background-repeat: no-repeat;
+      background-position: center bottom;
+      background-size: cover;
+      font-family: sans-serif;
+      display: flex;
+      gap: 0.625em;
+      padding: 0.625em;
+      height: 100vh;
+      box-sizing: border-box;
+    }
+.column {
+      background-color: rgba(20, 20, 20, 0.0);
+      padding: 0.5em;
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+      flex: 1;
+      overflow-y: auto;
+      align-items: center;
+    }
+.name {
+      padding: 0em;
+      color: white;
+      border-style: solid;
+      border-width: 0.25em;
+      border-left-width: 0;
+      width: 256px;
+      height: 128px;
+      font-size: 1em;
+    }
+.name-title {
+      padding: 0.125em;
+      padding-left: 0.25em;
+      font-size: 2em;
+      font-weight: bold;
+    }
+.name-body {
+      padding-left: 0.5em;
+      font-size: 1.25em;
+    }
+.container {
+      padding: 0em;
+      color: white;
+    }
+.box {
+      padding: 0.25em;
+      color: white;
+      border-style: solid;
+      border-radius: 1.25em;
+      border-width: 0.25em;
+      th, td {
+      padding: 0.75em;
+      }
+    }
+    .row {
+      display: flex;
+      gap: 0.313em;
+      overflow-x: auto;
+    }
+.grid3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.25em;
+      margin: 0.25em;
+
+    }
+.gallery-item {
+      border-style: solid;
+      border-color: rgba(50, 50, 50, 0.9);
+      padding: 0.25em;
+      height: 12.25em;
+      text-align: center;
+    }
+.gallery-item img {
+      max-width: 9.5em;
+      max-height: 9.5em;
+      border-radius: 0.25em;
+      cursor: pointer;
+    }
+.artist {
+      font-size: 0.8em;
+      margin-top: 0.25em;
+      color: white;
+      text-align: center, bottom;
+    }
+    #space {
+      padding-top: 4em;
+}
+    #no-padding {
+      padding: 0em;
+}
+    #no-gap {
+      gap: 0em;
+}
+    #color-blue {
+      background-color: rgba(76, 175, 255, 0.9);
+}
+    #color-gray {
+      background-color: rgba(20, 20, 20, 1.0);
+}
